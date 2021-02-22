@@ -1,0 +1,28 @@
+main {
+    min-height: 80vh;
+}
+.header{
+    /* background-image: url('./images/headbg.png'); */
+    background-color: burlywood;
+}
+.top{
+    background-color: rgb(3, 17, 42);
+    color: white;
+    height: 40px;
+    font-weight: bold;
+}
+.topPhoto {
+    height: 30px;
+    width: 30px; 
+    margin-top: 4px;
+    float: right;
+}
+.menu{
+    background-color: rgb(3, 17, 42);
+}
+.slider{
+    height: 40px;
+}
+b{
+    margin-right: 50px;
+}
