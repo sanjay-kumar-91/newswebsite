@@ -1,0 +1,21 @@
+{
+  "name": "newswebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm start --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanjayAdvith/newswebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SanjayAdvith/newswebsite/issues"
+  },
+  "homepage": "https://github.com/SanjayAdvith/newswebsite#readme"
+}

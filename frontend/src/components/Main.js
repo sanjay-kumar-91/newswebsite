@@ -1,20 +1,22 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Row, Col, Button } from "react-bootstrap";
 
-const Example = () => {};
+const Example = () => { };
 
 const Main = () => {
   return (
     <main>
-      <Container>
-        <Row>
-          <Col>
-            <Button variant="danger" onClick={Example}>
-              Click
-            </Button>
-          </Col>
-        </Row>
-      </Container>
+
+      <Row className='screen'>
+        <Col className='left' sm={3}>
+          <Button variant="danger" onClick={Example}>
+            Click
+          </Button>
+        </Col>
+        <Col className='middle' sm={6}>mid</Col>
+        <Col className='right' sm={3}>Right</Col>
+      </Row>
+
     </main>
   );
 };

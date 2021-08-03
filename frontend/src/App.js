@@ -14,9 +14,8 @@ const App = () => {
             <Menu />
             <Slider />
             <main >
-                <Container>
+                <Container fluid='sm'>
                     <Main />
-
                 </Container>
             </main>
             <Footer />
