@@ -8,7 +8,7 @@ main {
 .top {
   background-color: rgb(3, 17, 42);
   color: white;
-  height: 40px;
+  min-height: 40px;
   font-weight: bold;
 }
 .topPhoto {
@@ -37,7 +37,7 @@ b {
   background-color: burlywood;
 }
 .middle {
-  background-color: cyan;
+  color: white;
 }
 .right {
   background-color: darkorchid;

@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col, Button } from "react-bootstrap";
+import ImageCarousel from "./ImageCarousel";
 
 const Example = () => { };
 
@@ -13,7 +14,9 @@ const Main = () => {
             Click
           </Button>
         </Col>
-        <Col className='middle' sm={6}>mid</Col>
+        <Col className='middle' sm={6}>
+          <ImageCarousel />
+        </Col>
         <Col className='right' sm={3}>Right</Col>
       </Row>
 

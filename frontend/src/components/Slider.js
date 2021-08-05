@@ -1,9 +1,9 @@
 import React from 'react'
-import { Row, Col, Button, Image } from 'react-bootstrap'
+import { Container,Row, Col, Button, Image } from 'react-bootstrap'
 import Marquee from './Marquee';
 const Slider = () => {
     return (
-        <div>
+        <Container>
             <Row className='slider'>
                 <Col md={3}>
                     <Button variant='danger' className='ml-3'>
@@ -15,7 +15,7 @@ const Slider = () => {
                     <Marquee />
                 </Col>
             </Row>
-        </div>
+        </Container>
     )
 }
 
