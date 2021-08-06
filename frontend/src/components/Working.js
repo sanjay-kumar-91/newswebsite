@@ -7,7 +7,7 @@ const Working = () => {
             <Container>
                 <Row>
                     <Col>
-                        <h1 style={{ marginTop: '10vh', marginLeft: '40%' }}>Website is under maintenance...</h1>
+                        <h1 style={{ marginTop: '10vh' }}>Website is under maintenance...</h1>
                     </Col>
                 </Row>
             </Container>
