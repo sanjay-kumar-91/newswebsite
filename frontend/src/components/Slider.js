@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container,Row, Col, Button, Image } from 'react-bootstrap'
+import { Container, Row, Col, Button, Image } from 'react-bootstrap'
 import Marquee from './Marquee';
 const Slider = () => {
     return (
@@ -11,7 +11,7 @@ const Slider = () => {
                         <Image src="./images/pro.gif" style={{ height: '18px', width: '18px' }} />
                     </Button>
                 </Col>
-                <Col>
+                <Col md={9}>
                     <Marquee />
                 </Col>
             </Row>
